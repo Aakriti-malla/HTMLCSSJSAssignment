@@ -1,0 +1,149 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 175%; 
+}
+  
+  .box {
+    background-color: rgb(168, 168, 168);
+    font-family: Helvetica;
+    color: black;
+    float: left;
+    margin: 6px;
+    padding: 6px;
+    border: 1px solid black;
+  }
+  
+  @media (min-width: 992px) {
+    .col-lg-4 {
+      width: 33.33%;
+      float: left;
+      position: relative;
+      box-sizing: border-box;
+    }
+    #p4 {
+      text-align: center;
+      background-color: rgb(251, 113, 113);
+      float: left;
+      position: absolute;
+      height: 20px;
+      width: 80px;
+      top: -10px;
+      right: 6px;
+      border: 1px solid black;
+    }
+    #p5 {
+      text-align: center;
+      background-color: rgb(213, 59, 59);
+      float: left;
+      position: absolute;
+      height: 20px;
+      width: 80px;
+      top: -10px;
+      right: 6px;
+      border: 1px solid black;
+    }
+    #p6 {
+      text-align: center;
+      background-color: rgb(236, 230, 120);
+      float: left;
+      position: absolute;
+      height: 20px;
+      width: 80px;
+      top: -10px;
+      right: 6px;
+      border: 1px solid black;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+      width: 50%;
+      float: left;
+      position: relative;
+      box-sizing: border-box;
+    }
+    .col-md-12 {
+      width: 100%;
+      float: left;
+      position: relative;
+      box-sizing: border-box;
+    }
+    #p4 {
+      text-align: center;
+      background-color: rgb(251, 113, 113);
+      float: left;
+      position: absolute;
+      height: 20px;
+      width: 80px;
+      top: -10px;
+      right: 6px;
+      border: 1px solid black;
+    }
+    #p5 {
+      text-align: center;
+      background-color: rgb(213, 59, 59);
+      float: left;
+      position: absolute;
+      height: 20px;
+      width: 80px;
+      top: -10px;
+      right: 6px;
+      border: 1px solid black;
+    }
+    #p6 {
+      text-align: center;
+      background-color: rgb(236, 230, 120);
+      float: left;
+      position: absolute;
+      height: 20px;
+      width: 80px;
+      top: -10px;
+      right: 6px;
+      border: 1px solid black;
+    }
+  }
+  @media (max-width: 767px) {
+    .col-sm-12 {
+      float: left;
+      position: relative;
+      box-sizing: border-box;
+      width: 100%;
+    }
+    #p4 {
+      text-align: center;
+      background-color: rgb(251, 113, 113);
+      float: left;
+      position: absolute;
+      height: 20px;
+      width: 80px;
+      top: -10px;
+      right: 6px;
+      border: 1px solid black;
+    }
+    #p5 {
+      text-align: center;
+      background-color: rgb(213, 59, 59);
+      float: left;
+      position: absolute;
+      height: 20px;
+      width: 80px;
+      top: -10px;
+      right: 6px;
+      border: 1px solid black;
+    }
+    #p6 {
+      text-align: center;
+      background-color: rgb(236, 230, 120);
+      float: left;
+      position: absolute;
+      height: 20px;
+      width: 80px;
+      top: -10px;
+      right: 6px;
+      border: 1px solid black;
+    }
+  }
