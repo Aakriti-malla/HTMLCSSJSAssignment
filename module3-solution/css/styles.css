@@ -1,0 +1,31 @@
+body {
+    background-color: white;
+  }
+  
+  div#collapsable-nav {
+  /*  background-color: yellow; */
+  }
+  
+  ul > li > a {
+    text-align: center;
+    border: 1px solid black;
+  /*  background-color: yellow; */
+  }
+  
+  ul > li {
+    border: 1px solid black;
+    background-color: yellow;
+  }
+  
+  div.container-fluid > p.thousand {
+     padding-top: 24px;
+     background-color: #FFFDD0;
+  }
+  
+  ul#nav-list > li:not(1) {
+    border-top: none;
+  }
+  
+   h3 {
+    text-align: center; 
+  } 
